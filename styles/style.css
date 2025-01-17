@@ -1,0 +1,27 @@
+/* for ssame fonts */
+.font-family{
+    font-family: "Work Sans", serif;
+}
+/* for same fonts */
+
+/* nav part css start */
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-menu ul{
+    display: flex;
+    list-style: none;
+}
+
+.nav-menu ul li a{
+    text-decoration: none;
+}
+
+.header-section{
+    width: 1440px;
+    margin: 0px auto;
+}
+/* nav part css end */
