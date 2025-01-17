@@ -4,24 +4,149 @@
 }
 /* for same fonts */
 
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
 /* nav part css start */
+header{
+    padding-top: 33px;
+    /* padding-bottom: 45px; */
+    background-color: rgba(255, 144, 14, 0.1);
+}
 
 .nav-container{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    width: 1440px;
+    margin: 0px auto;
 }
 
 .nav-menu ul{
     display: flex;
     list-style: none;
+    gap: 50px;
 }
 
 .nav-menu ul li a{
     text-decoration: none;
+    color: black;
+}
+
+.nav-menu ul li{
+    font-family:"Work Sans", serif;
+    font-size: 1.10rem;
+    font-weight: 400;
 }
 
 .header-section{
-    width: 1440px;
-    margin: 0px auto;
+    width: 100%;
+    /* margin: 0px auto; */
+}
+
+.g3{
+    color: rgba(255, 144, 14, 1);
+}
+
+.nav-title{
+    font-size: 3rem;
+    font-weight: 700;
+    /* line-height: 52px; */
 }
 /* nav part css end */
+
+/* banner part css start */
+.banner{
+    padding: 120px 0px 45px 0px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner-h1{
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    margin-bottom: 32px;
+}
+
+.banner-p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height:1.5rem;
+    margin-bottom: 32px;
+}
+
+.banner-btn{
+    font-size: 1.25rem;
+    font-weight: 2rem;
+    padding: 20px 24px;
+    background-color: rgba(255, 144, 14, 1);
+    border: none;
+    color: #ffffff;
+    border-radius: 8px;
+    margin-bottom: 50px;
+}
+
+.banner-img{
+    width: 100%;
+}
+/* banner part css end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive part start  */
+
+@media screen and (max-width:576px) {
+    .nav-menu ul, .nav-container{
+        flex-direction: column;
+    }
+
+    .nav-menu ul{
+        gap: 20px;
+        text-align: center;
+    }
+
+    .nav-container{
+        width: 100%;
+    }
+
+    .header-section{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:577px) and (max-width:992px) {
+    .nav-container{
+        width: 100%;
+    }
+
+    .header-section{
+        width: 100%;
+    } 
+    
+    /* .nav-menu ul, .nav-container{
+        flex-direction: column;
+    }
+
+    .nav-menu ul{
+        gap: 20px;
+        text-align: center;
+    } */
+}
+/*  responsive part end */
