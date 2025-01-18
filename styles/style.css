@@ -2,10 +2,6 @@
 .font-family{
     font-family: "Work Sans", serif;
 }
-
-img{
-    width: 100%;
-}
 /* for same fonts */
 
 /* color */
@@ -315,23 +311,26 @@ header{
     }
 
     .experience{
-        margin: 0px;
+        margin: 10px;
     }
 
     .featured-img img{
         width: 100%;
     }
 
-    .featured-sec,
-    .cardp,
-    .card,
-    .feature-content{
+     .featured-sec{
         width: 100%;
     }
 
-    .features-card{
-        width:calc(100% - 30px) ;
+    
+    /* .card{
+        width:calc(100% - 20px);
+    } */
+
+    .card{
+        padding: 20px;
     }
+    
     /* featured end */
 }
 
@@ -377,5 +376,21 @@ header{
     .team-content{
         margin-left: 20px;
     }
+
+    /* featured start */
+
+    .featured-sec{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .experience{
+       margin: 20px;
+    }
+
+    .featured-img img{
+        width: 100%;
+    }
+    /* featured end */
 }
 /*  responsive part end */
