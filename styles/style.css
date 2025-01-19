@@ -553,5 +553,18 @@ footer{
         width: 100%;
     }
     /* featured end */
+
+    .facts-card,
+    .facts-content{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 100px;
+        padding: 0px 20px;
+    }
+
+    .facts-sec,
+    .sponsor-sec,
+    .footer{
+        width: 100%;
+    }
 }
 /*  responsive part end */
